@@ -102,10 +102,15 @@ address {
 }
 
 .form {
-    background: #2e2f42;
-    padding: 188px 0;
     
-   }
+    background-color: #2e2f42;
+    padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+        url("/images/people-office\ 1.jpg");
+        background-size: cover;
+    }
 
 .form-title {
     font: 700 56px / 1.07 "Roboto", sans-serif;
@@ -117,7 +122,7 @@ address {
 }
 
 .form-button {
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     font: 500 16px / 1.5 "Roboto", sans-serif;
         letter-spacing: 0.04em;
         color: #fff;
@@ -177,18 +182,18 @@ margin-bottom: 8px;
 }
 
 .team {
-    background: #f4f4fd;
+    background-color: #f4f4fd;
     padding: 120px 0;
 }
 
 .team-list {
-background: #ffffff;
+background-color: #ffffff;
 display: flex;
 gap: 24px;
 }
 
 .team-list-item {
-    background: #ffffff;
+    background-color: #ffffff;
  border-radius: 0px 0px 4px 4px;
 }
 
@@ -270,7 +275,7 @@ color: #434455;
 }
 
 .footer {
-    background: #2e2f42;
+    background-color: #2e2f42;
     padding: 100px 0;
 }
 
