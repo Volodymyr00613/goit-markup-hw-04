@@ -15,7 +15,7 @@
         }
 
 p,
-h {
+h1,h2,h3,h4,h5 {
     padding: 0;
         margin: 0;
 }
@@ -71,27 +71,33 @@ border-bottom: 1px solid #e7e9fc;
     font: 500 16px / 1.5 "Roboto", sans-serif;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 24px 0;
+        display: block;
 }
 
 .menu-list {
-    padding: 24px 0;
+    gap: 40px;
+    display: flex;
 }
 
 
 
-address {
+.contacts {
     font-style: normal;
-}
+    margin-left: auto;
+    }
 
 .contacts-list {
     display: flex;
     gap: 40px;
-}
+    }
 
 .contacts-link {
     font: 400 16px / 1.5 "Roboto", sans-serif;
         letter-spacing: 0.02em;
         color: #434455;
+        display: block;
+        padding: 24px 0;
 }
 
 .contacts-link:hover,
@@ -112,7 +118,7 @@ address {
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
-
+margin: 0 auto;
         max-width: 496px;
 }
 
@@ -122,7 +128,7 @@ address {
         letter-spacing: 0.04em;
         color: #fff;
         cursor: pointer;
-
+margin: 48px auto 0;
         display: block;
         min-width: 169px;
         height: 56px;
@@ -172,7 +178,6 @@ margin-bottom: 8px;
 .advantages-text {
     line-height: 1.5;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #434455;
 }
 
@@ -182,7 +187,6 @@ margin-bottom: 8px;
 }
 
 .team-list {
-background: #ffffff;
 display: flex;
 gap: 24px;
 }
