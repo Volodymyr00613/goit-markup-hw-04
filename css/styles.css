@@ -115,11 +115,12 @@ position: relative;
 .contacts-link:focus,
 .menu-list-link:hover,
 .menu-list-link:focus {
-    color: #404bbf
+    color: #404bbf;
 }
 
 .form {
-   
+   margin-left: auto;
+   margin-right: auto;
     background: #2e2f42;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
@@ -147,18 +148,18 @@ margin: 0 auto;
         letter-spacing: 0.04em;
         color: #fff;
         cursor: pointer;
-margin: 48px auto 0;
+        margin: 48px auto 0;
         display: block;
         min-width: 169px;
         height: 56px;
         border: none;
         border-radius: 4px;
-        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+        }
 
 .form-button:hover,
 .form-button:focus {
-    background-color: #404BBF
+    background-color: #404BBF;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .advantages {
@@ -232,7 +233,7 @@ gap: 24px;
 width: calc((100% - 72px) / 4);
 }
 
-.team-container {
+.team-info {
     padding: 32px 0;
 }
 
@@ -262,12 +263,36 @@ margin-bottom: 72px;
         text-align: center;
 }
 
-/* .socials {
+.socials-list {
     display: flex;
     align-items: center;
     justify-content: center;
-} */
+    gap: 24px;
+}
 
+.socials-list-item {
+    width: 40px;
+    height: 40px;
+}
+
+.socials-list-link {
+width: 100%;
+height: 100%;
+background-color: #4d5ae5;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.socials-list-link:hover,
+.socials-list-link:focus {
+    background-color: #404bbf;
+}
+
+.socials-logo {
+    fill: #f4f4fd;
+}
 .portfolio {
     padding: 120px 0 120px 0;
 }
