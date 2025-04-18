@@ -330,8 +330,7 @@ justify-content: center;
             overflow: hidden;
         }
 
-                .portfolio-image:hover .portfolio-image-text
-                {
+                .portfolio-list-item:hover .portfolio-image-text {
 transform: translateY(0%);
                 }
 
