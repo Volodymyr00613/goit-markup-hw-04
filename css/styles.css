@@ -179,6 +179,17 @@ margin: 48px auto 0;
         clip-path: inset(100%);
     }
 
+    .advantages-icons {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background: #f4f4fd;
+        border: 1px solid #8e8f99;
+            border-radius: 4px;
+            margin-bottom: 8px;
+    }
+
     .advantages-list {
         display: flex;
         gap: 24px;
@@ -200,6 +211,7 @@ margin-bottom: 8px;
         letter-spacing: 0.02em;
         color: #434455;
 }
+
 
 .team {
     background: #f4f4fd;
@@ -249,6 +261,12 @@ margin-bottom: 72px;
         color: #434455;
         text-align: center;
 }
+
+/* .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 
 .portfolio {
     padding: 120px 0 120px 0;
