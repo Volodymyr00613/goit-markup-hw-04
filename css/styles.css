@@ -175,7 +175,7 @@ margin: 0 auto;
         height: 56px;
         border: none;
         border-radius: 4px;
-        transition: backgroud-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 
 .form-button:hover,
@@ -248,6 +248,9 @@ gap: 24px;
 .team-list-item {
     background: #ffffff;
  border-radius: 0px 0px 4px 4px;
+box-shadow зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-list .team-list-item {
